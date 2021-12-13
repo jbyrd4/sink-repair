@@ -1,0 +1,50 @@
+.serviceForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: seagreen;
+    margin: 1em;
+    padding: 10px;
+    font-size: 16px;
+    color:palegoldenrod;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.request__delete {
+    background-color:slateblue;
+    margin: 10px;
+    padding: 5px;
+    font-size: 14px;
+    color:palegoldenrod;
+    border-radius: 10px;
+    width: 80px;
+}
+
+.requestList {
+    display: flex;
+    flex-direction: column;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.list {
+    list-style-type: none;
+    align-content: flex-end;
+
+}
+
